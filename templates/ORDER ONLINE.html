@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>order</title>
+    <link rel="stylesheet" href="static\style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="header4">
+        <div class="logo">Muffin-HooD</div>
+        <nav>
+            <div class="menubar">
+        <ul>
+            <li><a href="{{url_for('home')}}">HOME</a></li>
+           <li><a href="{{url_for('about')}}">ABOUT</a></li> 
+            <li><a href="{{url_for('shop')}}">SHOP</a></li>
+            <li><a href="{{url_for('location')}}">OURLOCATION</a></li>
+            <li><a href="{{url_for('contact')}}">CONTACT</a></li>
+        
+        </ul>
+            </div>
+        <div class="set">
+            <ul>
+                <li><a href="{{url_for('getvalue')}}"><button class="orderbutton">ORDER ONLINE</button></a></li>
+                <li><a href="{{url_for('account')}}"><i class="fa fa-user" style="color: rgb(32, 250, 232); height: 30px;"></i>
+               </a></li></a></li>
+               
+            
+           
+               
+            </ul>
+        </div>
+        </nav>
+        <div class="txt" >
+            <h5 class="header5">Place order </h5>
+           </div>
+           <div class="form7">
+            <form name="data" action="/orderoutput.html" method="post">
+            <p class="p7">MUFFINS:</p>
+            <select class="muffin-selection" name="muffins" id="">
+                <option value="Banana Nut">Banana Nut</option>
+                <option value="Chocolate Chip">Chocolate Chip</option>
+                <option value="Apple-Cinnamon">Apple-Cinnamon</option>
+                <option value="Pumpkin Spice">Pumpkin Spice</option>
+                <option value="Honey">Honey</option>
+                <option value="Berries">Berries</option>
+            </select>
+            <p class="p7">NUMBER:</p>
+            <input type="number" max="200" name="number" placeholder="type number of muffins" required><br>
+            <p class="p7">PAYMENT:</p>
+            <select class="payment-option" name="payment" id="">
+                <option value="Cash">Cash</option>
+                <option value="Card">Card</option>
+                <option value="Voucher">Voucher</option>
+            </select>
+            <p class="p7">COLLECTION/DELIVERY:</p>
+            <select class="payment-option" name="delivery" id="">
+                <option value="SELF COLLECTION">SELF COLLECTION</option>
+                <option value="DELIVERY">DELIVERY</option>
+                
+            </select>
+            <p class="p7">ADDRESS:</p>
+            <input type="text" name="address" placeholder="if selected delivery type in address">
+
+            <p class="p7">EMAIL:</p>
+            <input type="email" name="EMAIL" placeholder="type in account email" required><br>
+            <button class="btn">ORDER</button>
+        </form>
+        </div>
+    </section>
+    <section class="header2">
+
+        <div class="logo2"></div>
+    
+    
+    
+        <div class="icon">
+            <h1>Connect with Us</h1>
+            <a class="btn btn1" href="#">
+                <i class="fab fa-facebook" style="color: lightskyblue;"></i>
+            </a>
+            <a class="btn btn2" href="#">
+                <i class="fab fa-twitter" style="color: blue;"></i>
+            </a>
+            <a class="btn btn3" href="#">
+                <i class="fab fa-whatsapp" style="color: green;"></i>
+            </a>
+            <a class="btn btn4" href="#">
+                <i class="fab fa-instagram " style="color: purple;"></i>
+            </a>
+            
+    
+        </div>
+    
+        
+       
+        
+    
+        </section>
+    
+    
+</body>
+</html>

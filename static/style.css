@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.header{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(images/depositphotos_89610072-stock-photo-blueberry-muffins-with-powdered-sugar.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.logo{
+    text-shadow: 0.5px 0.5px black;
+    font-size: 40px;
+    color: rgb(32, 250, 232);
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+nav{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 2% 6%;
+}
+
+.menubar ul li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding: 20px 25px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;  
+}
+.menubar a{
+    color: white ;
+    text-shadow: 1px 1px black;
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+.menubar  a:hover{
+
+    color: rgb(32, 250, 232);
+   
+
+
+}
+.orderbutton{
+    background-color: rgb(32, 250, 232);
+    color: black;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+
+}
+.orderbutton:hover{
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+    transform: scale(1.25) ;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+.set ul li{
+    display: inline-block;
+    justify-content: space-between;
+    font-size: 20px;
+    margin: 10px;
+    color: lightblue;
+    font-weight: bolder;
+    
+}
+
+.header2{
+    min-height: 15vh;
+    background-color: teal;
+    background-position: center;
+    background-size: cover;
+    position: relative; 
+}
+
+.para{
+    text-align: start;
+    
+}
+.icon{
+    text-align: center;
+}
+
+.content{
+align-items: center;
+padding: 50px;
+color: lightblue;
+}
+h2{
+    font-size: 60px;
+}
+.par{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    text-shadow: 0.5px 0.5px black;
+}
+.welcometext{
+    color: black;
+    text-shadow: 0.5px 0.5px white;
+}
+.connetwithus{
+    color: black;
+}
+.header3{
+    min-height: 50vh;
+    background-color: teal;
+    background-position: center;
+    background-size: cover;
+    position: relative
+}
+
+.text{
+    text-align: center;
+    float:left;
+}
+h6{
+    font-size: 60px;
+    color: whites;
+    font-weight: bolder;
+    font-style: italic;
+    
+}
+.paratext{
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+    padding: 20px;
+}
+.paratext2{
+    font-weight: bold;
+    color: pink;
+    font-style: oblique;
+}
+h1{
+    padding: 10px;
+    font-size: 40px;
+    color: white;
+    text-shadow: 0.5px 0.5px black;
+}
+.header4{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(/static/images/depositphotos_89610072-stock-photo-blueberry-muffins-with-powdered-sugar.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative; 
+}
+.txt{
+    text-align: center;
+    align-items: center;
+}
+h5{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+.form{
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+.p{
+    font-size: 30px;
+    margin: 10px;
+    color: white;
+    font-weight: bolder;
+}
+.backpage{font-weight: bolder;
+    border-radius: 20px;
+    width: 150px;
+    margin: 15px;
+    padding: 15px;}
+.backpage:hover{
+    background-color: rgb(0, 225, 255);
+}
+.btn{
+    font-weight: bolder;
+    border-radius: 20px;
+    width: 150px;
+    margin: 15px;
+    padding: 15px;
+
+}
+.btn:hover{
+    background-color: rgb(0, 225, 255);
+}
+.p7{
+    font-weight: bolder;
+    font-size: 30px;
+    color:rgb(32, 250, 232);
+    text-shadow: 0.5px 0.5px black
+}
+.muffin-selection{
+    text-align: center;
+    width: 250px;
+    padding: 18px;
+    font-size: 15px;
+    border: 2px solid rgb(45, 227, 240);
+    border-radius: 10px;
+
+}
+.payment-option{
+    text-align: center;
+    width: 250px;
+    padding: 18px;
+    font-size: 15px;
+    border: 2px solid rgb(45, 227, 240);
+    border-radius: 10px;
+}
+option{
+    background-color: rgb(45, 227, 240);
+}
+input{
+align-items: center;
+    border: 1px solid rgb(45, 227, 240);
+    border-radius: 10px;
+    width: 250px;
+    padding: 18px;
+    font-size: 15px;
+    text-align: center;
+    display: inline-block;
+    flex: 1;
+}
+.form3{
+    text-align: center;
+}
+h3{
+
+font-weight: bold;
+
+
+}
+#backround{
+    border: 1px solid;
+    width: 250px;
+    padding: 18px;
+    font-size: 20px;
+
+}
+#payment{
+    border: 1px solid;
+    width: 250px;
+    padding: 18px;
+    font-size: 20px;
+}
+h4{
+    font-size: 40px;
+font-weight: bold;
+padding: 15px;
+margin: 2px;
+color:rgb(32, 209, 150);
+font-style: oblique;
+text-shadow: 0.5px 0.5px black;
+}
+.header7{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(images/pumpkin-muffins-20.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative; 
+}
+.header8{
+    background-color: rgb(45, 227, 240);
+}
+.form7{
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+
+}
+.fail{
+    color: rgb(45, 227, 240);
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px black;
+}
+
+
+.textr{
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+    font-weight: bolder;
+}
+iframe{
+    width: 100%;
+}
+.pMap{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(32, 209, 150);
+    text-shadow: 0.5px 0.5px black;
+}
+.pC{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(32, 209, 150);
+    text-align: center;
+    text-shadow: 0.5px 0.5px black;
+}
+.header10{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(images/double-chocolate-chip-muffins-3-scaled.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.parao{
+    text-align: center;
+    font-size: 50px;
+    color: pink;
+    font-weight: bold;
+    font-style: italic;
+    padding: 50px;
+    margin: 50px;
+}
+.header12{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(images/depositphotos_89610072-stock-photo-blueberry-muffins-with-powdered-sugar.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.header14{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(images/double-chocolate-chip-muffins-3-scaled.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.header20{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)), url(images/depositphotos_89610072-stock-photo-blueberry-muffins-with-powdered-sugar.jpg);
+    text-shadow: 0.5px 0.5px black;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+.created1{
+    color: black;
+}
+.order{
+    text-align: center;
+    padding: 60px;
+}
+.or{
+    font-size: 80px;
+    font-weight: bolder;
+    color: aqua;
+    text-shadow: 0.5px 0.5px black;
+    
+}
+.alu{
+    font-size: 40px;
+    color: rgb(6, 232, 248);
+    padding: 30px;
+    margin: 30px;
+    text-shadow: 0.5px 0.5px black;
+
+}
+.header5{
+    color: white;
+    text-shadow: 0.5px 0.5px black;
+}

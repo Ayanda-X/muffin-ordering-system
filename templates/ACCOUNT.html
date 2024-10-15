@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>account</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="header7">
+        <div class="logo">Muffin-HooD</div>
+        <nav>
+        <div class="menubar">
+    <ul>
+        <li><a href="{{url_for('home')}}">HOME</a></li>
+       <li><a href="{{url_for('about')}}">ABOUT US</a></li> 
+        <li><a href="{{url_for('shop')}}">MENU</a></li>
+        <li><a href="{{url_for('location')}}">OURLOCATION</a></li>
+        <li><a href="{{url_for('contact')}}">CONTACT US</a></li>
+    
+    </ul>
+        </div>
+    <div class="set">
+        <ul>
+            <li><a href="{{url_for('getvalue')}}"><button class="orderbutton">ORDER ONLINE</button></a></li>
+            <li><a href="{{url_for('account')}}"><i class="fa fa-user" style="color: rgb(12, 252, 240); height: 30px;"></i>
+           </a></li></a></li>
+           
+        
+       
+           
+        </ul>
+       
+           
+        </ul>
+    </div>
+    </nav>
+        <div class="form7">
+            <h6>SIGNIN</h6>
+            <form name="passdata" method="post">
+
+            <p class="p7">EMAIL ADDRESS:</p>
+            <input type="text" name="email" placeholder="" required>
+            <p class="p7">PASSWORD:</p>
+            <input type="password" name="password" placeholder="" required><br>
+            <button class="btn">LOGIN</button><br>
+            <p class="fail">{{fail}}</p>
+            <a href="/forgot.html">forgot password?</a><br>
+            <p class="textr">don't have account?<a href="{{url_for('sign')}}">sign up</a></p><br>
+            
+
+            
+        </form>
+        </div>
+    
+    </section>
+    <section class="header2">
+
+        <div class="logo2">Muffin-HooD</div>
+    
+    
+    
+        <div class="icon">
+            <h1>Connect with Us</h1>
+            <a class="btn btn1" href="#">
+                <i class="fab fa-facebook" style="color: lightskyblue;"></i>
+            </a>
+            <a class="btn btn2" href="#">
+                <i class="fab fa-twitter" style="color: blue;"></i>
+            </a>
+            <a class="btn btn3" href="#">
+                <i class="fab fa-whatsapp" style="color: green;"></i>
+            </a>
+            <a class="btn btn4" href="#">
+                <i class="fab fa-instagram " style="color: purple;"></i>
+            </a>
+            
+    
+        </div>
+    
+        
+        
+        
+    
+        </section>
+    
+    
+</body>
+</html>
